@@ -41,4 +41,4 @@ This are your linux user and group ID's. We set this to avoid permission mismatc
 
 # Any questions?
 
-Just open a PR
+Just open a PR or create an issue 
