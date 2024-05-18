@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  wordpress:
+    build:
+      context: .
+      args:
+        USER_ID: $UID
+        GROUP_ID: $GID
+    volumes:
+      - ./wordpress:/var/www/html
+    ports:
+      - 80:80
+  db:
+    image: mariadb:11.2.2
+    volumes:
+      - ./var/lib/mysql:/var/lib/mysql
+    restart: on-failure
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - ${MYSQL_DB_PORT:-3306}:3306
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - mysqladmin --host=127.0.0.1 --user=root --port=3306
+          --password=$$MYSQL_ROOT_PASSWORD ping
+      interval: 1s
+      timeout: 1s
+      retries: 20
+      start_period: 1s
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - 1025:1025
+      - 8025:8025
