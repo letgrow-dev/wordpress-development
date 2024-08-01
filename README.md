@@ -8,7 +8,7 @@ This repository introduces revolutionized `instant reload technology`. If you ar
 
 ### Hot reloading benchmark
 
-| Fastet reload | Avg. 1000 reloads |
+| Fastest reload | Avg. 1000 reloads |
 | - | - |
 | <= 0 ms | <= 0 ms |
 
@@ -20,6 +20,8 @@ This repository introduces revolutionized `instant reload technology`. If you ar
 - you can develop in `wordpress/` directory
 
 There is no need to touch anything else
+
+Use username `wordpress` and password `password` so you'll remember what password you used
 
 ## Requirements
 
