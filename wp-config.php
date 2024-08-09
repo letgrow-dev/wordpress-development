@@ -84,7 +84,11 @@ define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+@ini_set( 'display_errors', 1 );
+define( 'SAVEQUERIES', true );
+define( 'SCRIPT_DEBUG', true );
+define( 'WP_DEBUG_DISPLAY', true );
+define( 'WP_DEBUG_LOG', '/logs/wp-errors.log' );
 
 /* That's all, stop editing! Happy publishing. */
 
