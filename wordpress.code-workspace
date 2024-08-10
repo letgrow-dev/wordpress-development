@@ -20,5 +20,11 @@
             "path": "./wordpress/wp-content/plugins/letgrow-logo-swap",
             "name": "Letgrow logo swap" 
         }
-    ]
+    ],
+    "settings": {
+        "[php]": {
+            "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+            "editor.formatOnSave": true
+        }
+    }
 }
