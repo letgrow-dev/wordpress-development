@@ -11,6 +11,14 @@
         {
             "path": "./wordpress/wp-content/plugins/letgrow-chatbot",
             "name": "Letgrow chatbot"
+        },
+        {
+            "path": "./wordpress/wp-content/plugins/letgrow-mail-history",
+            "name": "Letgrow emails history"
+        },
+        {
+            "path": "./wordpress/wp-content/plugins/letgrow-logo-swap",
+            "name": "Letgrow logo swap" 
         }
     ]
 }
