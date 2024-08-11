@@ -1,15 +1,17 @@
 version: "3.8"
 services:
   wordpress:
-    build:
-      context: .
-      args:
-        USER_ID: $UID
-        GROUP_ID: $GID
+    image: wordpress
+    user: ${UID}:${GID}
     volumes:
       - ./wordpress:/var/www/html
     ports:
       - 80:80
+  wp-cli:
+    image: wordpress:cli
+    user: ${UID}:${GID}
+    volumes:
+      - ./wordpress:/var/www/html
   db:
     image: mariadb:11.2.2
     volumes:
