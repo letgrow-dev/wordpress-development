@@ -25,6 +25,10 @@
         "[php]": {
             "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
             "editor.formatOnSave": true
+        },
+        "[js]": {
+            "editor.defaultFormatter": "vscode.json-language-features",
+            "editor.formatOnSave": true
         }
     }
 }
