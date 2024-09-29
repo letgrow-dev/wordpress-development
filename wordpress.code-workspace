@@ -1,34 +1,42 @@
 {
-    "folders": [
-        {
-            "path": "./",
-            "name": "Project root",
-        }, 
-        {
-            "path": "./wordpress/wp-content/plugins/akismet",
-            "name": "Akismet"
-        },
-        {
-            "path": "./wordpress/wp-content/plugins/letgrow-chatbot",
-            "name": "Letgrow chatbot"
-        },
-        {
-            "path": "./wordpress/wp-content/plugins/letgrow-mail-history",
-            "name": "Letgrow emails history"
-        },
-        {
-            "path": "./wordpress/wp-content/plugins/letgrow-logo-swap",
-            "name": "Letgrow logo swap" 
-        }
-    ],
-    "settings": {
-        "[php]": {
-            "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
-            "editor.formatOnSave": true
-        },
-        "[js]": {
-            "editor.defaultFormatter": "vscode.json-language-features",
-            "editor.formatOnSave": true
-        }
+  "folders": [
+    {
+      "path": "./",
+      "name": "Project root"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/akismet",
+      "name": "Akismet"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/letgrow-chatbot",
+      "name": "Letgrow chatbot"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/letgrow-mail-history",
+      "name": "Letgrow emails history"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/letgrow-logo-swap",
+      "name": "Letgrow logo swap"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/letgrow-wordpress",
+      "name": "Letgrow wordpress lib"
+    },
+    {
+      "path": "./wordpress/wp-content/plugins/custom-javascript",
+      "name": "Custom javascript"
     }
+  ],
+  "settings": {
+    "[php]": {
+      "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+      "editor.formatOnSave": true
+    },
+    "[js]": {
+      "editor.defaultFormatter": "vscode.json-language-features",
+      "editor.formatOnSave": true
+    }
+  }
 }
