@@ -8,26 +8,6 @@
       "path": "./wordpress/wp-content/plugins/akismet",
       "name": "Akismet"
     },
-    {
-      "path": "./wordpress/wp-content/plugins/letgrow-chatbot",
-      "name": "Letgrow chatbot"
-    },
-    {
-      "path": "./wordpress/wp-content/plugins/letgrow-mail-history",
-      "name": "Letgrow emails history"
-    },
-    {
-      "path": "./wordpress/wp-content/plugins/letgrow-logo-swap",
-      "name": "Letgrow logo swap"
-    },
-    {
-      "path": "./wordpress/wp-content/plugins/letgrow-wordpress",
-      "name": "Letgrow wordpress lib"
-    },
-    {
-      "path": "./wordpress/wp-content/plugins/custom-javascript",
-      "name": "Custom javascript"
-    }
   ],
   "settings": {
     "[php]": {
